@@ -1,6 +1,4 @@
-﻿const WebSocket = require('ws');
-const server = new WebSocket.Server({ port: 8080 });
-
+﻿const socket = new WebSocket('https://kkmanta.github.io/KekoasCasino/')
 console.log("Starting server.");
 
 // Handle incoming WebSocket connections
